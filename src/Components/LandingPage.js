@@ -26,11 +26,11 @@ import IconButton from '@material-ui/core/IconButton';
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
-      <Link color="inherit" href="https://www.stillthristy.in/">
-      Rohit Saini
+      <Link color="inherit" href="https://github.com/seemakhatri3">
+      Simmy Khatri
       </Link>
       { ' © '}
-      <Link color="inherit" href="https://github.com/rohitsaini1196">
+      <Link color="inherit" href="https://github.com/seemakhatri3/Velocity-Form-Like-Google-Form">
         GitHub
       </Link>{' '}
       {new Date().getFullYear()}

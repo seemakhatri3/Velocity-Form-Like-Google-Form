@@ -116,7 +116,7 @@ function Login(props){
                 <GoogleLogin
                     clientId={CLIENT_ID}
                     render={renderProps => (
-                        <GoogleButton onClick={renderProps.onClick} disabled={renderProps.disabled} style={{textAlign: 'center', alignSelf: 'center'}} />                      
+                        <GoogleButton onClick={renderProps.onClick} style={{textAlign: 'center', alignSelf: 'center'}} />                      
                       )}
                     buttonText='Login'
                     onSuccess={loginGoogle}
